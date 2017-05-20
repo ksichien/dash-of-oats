@@ -11,7 +11,6 @@ body {
   background: url("/images/header.jpg");
   background-size: cover;
   background-position: center;
-
 }
 .header .page-title {
   font-weight: 200;
