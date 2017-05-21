@@ -1,16 +1,19 @@
 doctype html
 html
   head
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+    script(src='/js/jquery.min.js')
+    script(src='/js/bootstrap.min.js')
     link(rel='stylesheet', href='/stylesheets/style.css')
     title Dash of Oats
   body
     .header
       h1.page-title Dash of Oats
-
-    ul.nav
-      li: a(href='/') Home
-      li: a(href='/about') About
-      li: a(href='/contact') Contact
+    nav.navbar.navbar-inverse
+      ul.nav
+        li: a(href='/') Home
+        li: a(href='/about') About
+        li: a(href='/contact') Contact
 
     .main-content
       block content

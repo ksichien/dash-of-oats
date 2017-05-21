@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,700");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   font-family: 'Source Code Pro', monospace;
 }
@@ -24,23 +19,23 @@ img {
   padding: 100px;
   text-transform: uppercase;
   color: #fff;
+  margin: 0;
 }
-.nav {
-  background: #000;
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0 !important;
   text-align: center;
 }
-.nav li {
+.navbar li {
   display: inline-block;
 }
-.nav a {
-  display: inline-block;
+.navbar li a {
+  font-size: 1.2em;
   padding: 20px;
   color: #fff;
-  text-decoration: none;
 }
-.nav a:hover {
-  background-color: #3ab795;
-  text-decoration: underline;
+.navbar li a:hover {
+  background-color: #3ab795 !important;
 }
 .main-content {
   margin: 50px auto;
@@ -60,12 +55,14 @@ img {
 }
 .recipe-ingredients ul {
   margin: 20px;
+  padding: 0;
 }
 .recipe-ingredients ul li {
   margin-bottom: 5px;
 }
 .recipe-ingredients ol {
   margin: 20px;
+  padding: 0;
 }
 .recipe-ingredients ol li {
   margin-bottom: 5px;

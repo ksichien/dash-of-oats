@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,700')
 
-*
-  margin 0
-  padding 0
-  box-sizing border-box
-
 body
   font-family 'Source Code Pro', monospace
 
@@ -17,7 +12,6 @@ img
   background url('/images/header.jpg')
   background-size cover
   background-position center
-
   .page-title
     font-weight 200
     font-size 70px
@@ -25,28 +19,24 @@ img
     padding 100px
     text-transform uppercase
     color #fff
+    margin 0
 
-.nav
-  background #000
+.navbar
+  border-radius 0
+  margin-bottom 0 !important
   text-align center
-
   li
     display inline-block
-
-  a
-    display inline-block
-    padding 20px
-    color #fff
-    text-decoration none
-
-    &:hover
-      background-color #3AB795
-      text-decoration underline
+    a
+      font-size 1.2em
+      padding 20px
+      color #fff
+      &:hover
+        background-color #3AB795 !important
 
 .main-content
   margin 50px auto
   max-width 1000px
-
   p
     line-height 1.6
     margin-bottom 1.7em
@@ -59,10 +49,12 @@ img
     margin-bottom 20px
   ul
     margin 20px
+    padding 0
     li
       margin-bottom 5px
   ol
     margin 20px
+    padding 0
     li
       margin-bottom 5px
 
@@ -71,6 +63,5 @@ img
   max-width 1000px
   border-top 1px solid
   padding 20px 0
-
   p
     font-size 12px
