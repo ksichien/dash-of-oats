@@ -5,29 +5,21 @@ block content
   div.recipe-ingredients
     h1 Banana oat pancakes
     img(src='/images/pancakes.jpeg')
-    p.serves Serves: #[input(type='number', id='quantity', value='1', min='1', max='10')]
+    p.serves Serves: #[input(type='number', id='quantity0', value='1', min='1', max='10')]
     h3 Ingredients:
-    ul
-      li#ingr0 1 tbs white vinegar
-      li#ingr1 7/8 cup unsweetened almond milk
-      li#ingr2 2 cups rolled oats
-      li#ingr3 1 medium ripe banana
-      li#ingr4 2 tsp baking powder
-      li#ingr5 1/2 tsp baking soda
-      li#ingr6 1/2 tsp ground cinnamon
-      li#ingr7 1/2 tsp salt
-      li#ingr8 3 tbs maple syrup
-      li#ingr9 2 tsp vanilla extract
-    script.
-      $(":input").on('change', function () {
-        var ingredients = [1, 7/8, 2, 1, 2, 1/2, 1/2, 1/2, 3, 2];
-        var qty = document.getElementById('quantity').value;
-        for (var i = 0; i < ingredients.length; i++) {
-          var text = document.getElementById('ingr'+i).innerText;
-          var amt = ingredients[i];
-          document.getElementById('ingr'+i).innerHTML = text.replace(/\d\.\d+|\d\/\d|\d+/,amt*qty);
-        }
-      });
+    div#pancake_recipe
+      ul
+        li 1 tbs white vinegar
+        li 7/8 cup unsweetened almond milk
+        li 2 cups rolled oats
+        li 1 medium ripe banana
+        li 2 tsp baking powder
+        li 1/2 tsp baking soda
+        li 1/2 tsp ground cinnamon
+        li 1/2 tsp salt
+        li 3 tbs maple syrup
+        li 2 tsp vanilla extract
+
     h3 Instructions:
     ol
       li Add the vinegar to a 1-cup or larger liquid measuring cup. Pour in enough almond milk to make 1 cup total. Set aside for about 5 minutes.
@@ -40,14 +32,15 @@ block content
   div.recipe-ingredients
     h1 Oat and date energy bars
     img(src='/images/energy-bars.jpg')
-    p.serves Serves: #[input(type='number', name='servings', value='1', min='1', max='10')]
+    p.serves Serves: #[input(type='number', id='quantity1', value='1', min='1', max='10')]
     h3 Ingredients:
-    ul
-      li 1 cup rolled oats
-      li 1 cup pitted dates
-      li 1/4 cup shredded coconut
-      li 1/2 – 1 cup of your chosen ingredients (dried fruit, nuts, seeds)
-      li 1 tbs coconut oil
+    div#energybar_recipe
+      ul
+        li 1 cup rolled oats
+        li 1 cup pitted dates
+        li 1/4 cup shredded coconut
+        li 1/2 cup of your chosen ingredients (dried fruit, nuts, seeds)
+        li 1 tbs coconut oil
 
     h3 Instructions:
     ol
@@ -58,3 +51,6 @@ block content
       li Once blended add to the oat mix.
       li Once loosely blended turn it out on to the baking tray and flatten slightly. Fold the other half of the parchment over the mixture and flatten with your hands. Use a rolling pin to flatten it out completely into a square or rectangle, using your hands to mould and straighten the edges.
       li Put in the fridge for at least two hours to allow to set. Once set use a knife to cut into bars.
+
+  script(src='/javascripts/recipe_data.js')
+  script(src='/javascripts/recipe_calculator.js')
