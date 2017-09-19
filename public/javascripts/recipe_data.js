@@ -3,7 +3,7 @@ var recipes = [
     name: "pancake_recipe",
     ingredients: {
       "tbs white vinegar": 1,
-      "cups unsweetened almond milk": 7/8,
+      "cups unsweetened almond milk": 1/2,
       "cups rolled oats": 2,
       "medium ripe banana": 1,
       "tsp baking powder": 2,
@@ -22,14 +22,15 @@ var recipes = [
       "cups shredded coconut": 1/4,
       "cups of your chosen ingredients (dried fruit, nuts, seeds)": 1/2,
       "tbs coconut oil": 1
-    },
+    }
+  },
     {
       name: "chocolate_chip_cookies_recipe",
       ingredients: {
         "cups all-purpose flour": 2,
-        "tsp baking powder": 2,
+        "tsp baking powder": 1,
         "tsp baking soda": 3/4,
-        "tsp fine salt": 1/2
+        "tsp fine salt": 1/2,
         "cups dark chocolate chips": 1,
         "cups sugar": 1/2,
         "cups dark brown sugar": 1/2,
