@@ -10,8 +10,36 @@ var recipes = [
       "tsp baking soda": 1/2,
       "tsp ground cinnamon": 1/2,
       "tsp salt": 1/2,
-      "tbs maple syrup": 3,
+      "tbs sugar": 5,
       "tsp vanilla extract": 2
+    }
+  },
+  {
+    name: "chocolate_chip_cookies_recipe",
+    ingredients: {
+      "cups all-purpose flour": 2,
+      "tsp baking powder": 1,
+      "tsp baking soda": 3/4,
+      "tsp fine salt": 1/2,
+      "cups dark chocolate chips": 1,
+      "cups sugar": 1/2,
+      "cups dark brown sugar": 1/2,
+      "cups canola oil": 1/2,
+      "cups water": 1/4
+    }
+  },
+  {
+    name: "chocolate_cake_recipe",
+    ingredients: {
+      "cups all-purpose flour": 3/2,
+      "tbs cocoa powder": 3,
+      "cups sugar": 1,
+      "tsp baking soda": 1,
+      "tsp salt": 1/2,
+      "tsp white vinegar": 1,
+      "tsp vanilla extract": 1,
+      "tbs vegetable oil": 5,
+      "cups water": 1
     }
   },
   {
@@ -23,19 +51,5 @@ var recipes = [
       "cups of your chosen ingredients (dried fruit, nuts, seeds)": 1/2,
       "tbs coconut oil": 1
     }
-  },
-    {
-      name: "chocolate_chip_cookies_recipe",
-      ingredients: {
-        "cups all-purpose flour": 2,
-        "tsp baking powder": 1,
-        "tsp baking soda": 3/4,
-        "tsp fine salt": 1/2,
-        "cups dark chocolate chips": 1,
-        "cups sugar": 1/2,
-        "cups dark brown sugar": 1/2,
-        "cups canola oil": 1/2,
-        "cups water": 1/4
-      }
   }
 ]
