@@ -3,14 +3,14 @@ var recipes = [
     name: "pancake_recipe",
     ingredients: {
       "tbs white vinegar": 1,
-      "cups unsweetened almond milk": 1/2,
+      "cups unsweetened almond milk": 1,
       "cups rolled oats": 2,
       "medium ripe banana": 1,
       "tsp baking powder": 2,
       "tsp baking soda": 1/2,
       "tsp ground cinnamon": 1/2,
       "tsp salt": 1/2,
-      "tbs sugar": 5,
+      "tbs sugar": 3,
       "tsp vanilla extract": 2
     }
   },
