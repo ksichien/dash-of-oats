@@ -29,6 +29,27 @@ var recipes = [
     }
   },
   {
+    name: "cinnamon_swirl_cake_recipe",
+    ingredients: {
+      "cups all-purpose flour": 5/2,
+      "tbs cornstarch": 4,
+      "tsp baking powder": 3/2,
+      "tsp baking soda": 1,
+      "tsp salt": 1,
+      "cups soy milk": 2,
+      "tsp apple cider vinegar": 2,
+      "cups canola oil": 2/3,
+      "cups granulated sugar": 3/2,
+      "tsp vanilla extract": 4,
+      "tsp almond extract": 1/2,
+      "cups brown sugar": 1/2,
+      "tsp cinnamon": 2,
+      "cups sifted confectioner's sugar": 1,
+      "tbs soy milk": 2,
+      "tsp vanilla extract": 1
+    }
+  },
+  {
     name: "chocolate_cake_recipe",
     ingredients: {
       "cups all-purpose flour": 3/2,
