@@ -72,5 +72,14 @@ var recipes = [
       "cups of your chosen ingredients (dried fruit, nuts, seeds)": 1/2,
       "tbs coconut oil": 1
     }
+  },
+  {
+    name: "teriyaki_recipe",
+    ingredients: {
+      "cup soy sauce": 1/2,
+      "cup mirin": 1/4,
+      "cup sake": 1/4,
+      "tbs sugar": 2
+    }
   }
 ]
