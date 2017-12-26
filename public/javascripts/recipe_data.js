@@ -82,4 +82,15 @@ var recipes = [
       "tbs sugar": 2
     }
   }
+  {
+    name: "sweet_and_sour_sauce_recipe",
+    ingredients: {
+      "cup ketchup": 1/4,
+      "tsp soy sauce": 1/2,
+      "cup white vinegar": 1/4,
+      "cup brown sugar": 1/4,
+      "cup cold water": 1/2,
+      "tbs corn starch": 3/2
+    }
+  }
 ]
