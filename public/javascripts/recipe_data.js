@@ -81,7 +81,7 @@ var recipes = [
       "cup sake": 1/4,
       "tbs sugar": 2
     }
-  }
+  },
   {
     name: "sweet_and_sour_sauce_recipe",
     ingredients: {
