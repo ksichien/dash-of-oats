@@ -93,4 +93,27 @@ var recipes = [
       "tbs corn starch": 3/2
     }
   }
+  {
+    name: "chocolate_babka",
+    ingredients: {
+      "cup soy milk": 3/4,
+      "tsp instant dry yeast": 2,
+      "cup coconut sugar": 1/4,
+      "cup flour": 2,
+      "tsp salt": 1/2,
+      "cup coconut oil, softened": 1/3,
+      "tbs vegan butter, softened": 2,
+      "cup coconut sugar": 1/2,
+      "tbs cacao": 3/2,
+      "tsp ground cinnamon": 1,
+      "tsp salt": 1/4,
+      "tbs coconut oil, softened": 2,
+      "tbs vegan butter, softened": 2,
+      "cup chocolate chips": 1/3,
+      "tsp ground cinnamon": 1,
+      "tsp salt": 1/4,
+      "tbs coconut sugar": 1,
+      "tbs water": 3/2
+    }
+  }
 ]
