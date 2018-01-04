@@ -110,8 +110,6 @@ var recipes = [
       "tbs coconut oil, softened": 2,
       "tbs vegan butter, softened": 2,
       "cup chocolate chips": 1/3,
-      "tsp ground cinnamon": 1,
-      "tsp salt": 1/4,
       "tbs coconut sugar": 1,
       "tbs water": 3/2
     }
