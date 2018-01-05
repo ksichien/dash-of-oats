@@ -92,7 +92,7 @@ var recipes = [
       "cup cold water": 1/2,
       "tbs corn starch": 3/2
     }
-  }
+  },
   {
     name: "chocolate_babka",
     ingredients: {
