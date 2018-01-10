@@ -1,0 +1,40 @@
+extend layout
+
+block content
+
+  div.recipe_ingredients
+    h1 Cinnamon Swirl Cake
+    img(src='/images/cinnamon_swirl_cake.jpg')
+    p.serves Serves: #[input(type='number', id='quantity', value='1', min='1', max='10')]
+    h3 Ingredients:
+    div#cinnamon_swirl_cake
+      ul
+        li 5/2 cups all-purpose flour
+        li 4 tbs cornstarch
+        li 3/2 tsp baking powder
+        li 1 tsp baking soda
+        li 1 tsp salt
+        li 2 cups soy milk
+        li 2 tsp apple cider vinegar
+        li 2/3 cups canola oil
+        li 3/2 cups granulated sugar
+        li 4 tsp vanilla extract
+        li 1/2 tsp almond extract
+        li 1/2 cups brown sugar
+        li 2 tsp cinnamon
+        li 1 cups sifted confectioner's sugar
+        li 2 tbs soy milk
+        li 1 tsp vanilla extract
+
+    h3 Instructions:
+    ol
+      li Preheat the oven to 176 degrees Celsis and butter a bundt cake pan.
+      li mix the soy milk and apple vinegar together and stir vigorously. Set aside to rest for 15 minutes.
+      li Prepare the filling by mixing the brown sugar and cinnamon together.
+      li Whisk the dry ingredients together in a large bowl, and the wet ingredients together in a smaller bowl. Combine and mix till batter is just combined.
+      li Pour ½ the batter into the pan. Add the cinnamon sugar filling mixture, poured evenly to cover the batter already in the pan. Now pour the remainder of the batter over the filling layer.
+      li Drag a spoon in a circle around the cake, with the spoon placed in the center of the batter. This makes the cinnamon sugar layer curved when the cake bakes.
+      li Bake for 55 minutes, or until a toothpick inserted in the center comes out clean.
+
+  script(src='/javascripts/recipe_data.js')
+  script(src='/javascripts/recipe_calculator.js')

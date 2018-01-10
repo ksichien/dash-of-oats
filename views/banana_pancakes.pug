@@ -1,0 +1,33 @@
+extend layout
+
+block content
+
+  div.recipe_ingredients
+    h1 Banana Pancakes
+    img(src='/images/banana_pancakes.jpg')
+    p.serves Serves: #[input(type='number', id='quantity', value='1', min='1', max='10')]
+    h3 Ingredients:
+    div#banana_pancakes
+      ul
+        li 1 tbs white vinegar
+        li 1 cup unsweetened almond milk
+        li 2 cups rolled oats
+        li 1 medium ripe banana
+        li 2 tsp baking powder
+        li 1/2 tsp baking soda
+        li 1/2 tsp ground cinnamon
+        li 1/2 tsp salt
+        li 3 tbs sugar
+        li 2 tsp vanilla extract
+
+    h3 Instructions:
+    ol
+      li Add the vinegar to a 1-cup or larger liquid measuring cup. Pour in enough almond milk to make 1 cup total. Set aside for about 5 minutes.
+      li Meanwhile, grind the oats into a flour by adding them to the pitcher of a blender and pulsing until fine.
+      li Add the remaining ingredients to the blender. Puree, scraping down the sides once or twice if necessary, until completely combined.
+      li Let the batter rest for about 5 minutes.
+      li Heat a griddle or non-stick frying pan to about 160 degrees Celsius (medium heat). It’s hot enough when you sprinkle a couple drops of water onto the surface and the drops dance around. If the griddle/pan is nonstick, you shouldn’t need any oil/vegan butter. Otherwise, you may want to melt a little oil into the pan before cooking the pancakes. Pour approx. 1/3 cup per pancake onto the griddle or pan (the pancakes will be 4-5 inches in diameter). Cook for 1-2 minutes until the pancakes look dry around the edges and a little bubbly. Flip and cook on the other side until golden brown and cooked in the middle. If the pancakes brown before the middle is cooked through, try lowering your heat a bit.
+      li Serve with toppings of your choice.
+
+  script(src='/javascripts/recipe_data.js')
+  script(src='/javascripts/recipe_calculator.js')
