@@ -38,8 +38,7 @@ var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
   var recipeSchema = mongoose.Schema({
-    name: String,
-    ingredients: [{ body: String, date: Date }]
+    name: String
   });
   var Recipe = mongoose.model('Recipe', recipeSchema);
   Recipe.find(function (err, recipes) {
