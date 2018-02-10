@@ -32,20 +32,20 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(stylus.middleware(path.join(__dirname, 'public')));
 
 // mongoose setup
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/dash-of-oats');
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function() {
-  var recipeSchema = mongoose.Schema({
-    name: String
-  });
-  var Recipe = mongoose.model('Recipe', recipeSchema);
-  Recipe.find(function (err, recipes) {
-    if (err) return console.error(err);
-    console.log(recipes);
-  })
-});
+// var mongoose = require('mongoose');
+// mongoose.connect('mongodb://localhost/dash-of-oats');
+// var db = mongoose.connection;
+// db.on('error', console.error.bind(console, 'connection error:'));
+// db.once('open', function() {
+//   var recipeSchema = mongoose.Schema({
+//     name: String
+//   });
+//   var Recipe = mongoose.model('Recipe', recipeSchema);
+//   Recipe.find(function (err, recipes) {
+//     if (err) return console.error(err);
+//     console.log(recipes);
+//   })
+// });
 
 // route setup
 app.use(routes);

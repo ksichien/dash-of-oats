@@ -113,5 +113,5 @@ var recipes = [
       "cup sake": 1/4,
       "tbs sugar": 2
     }
-  },
+  }
 ]
