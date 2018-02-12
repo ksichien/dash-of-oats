@@ -1,0 +1,16 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+    <% include partials/head %>
+    <body>
+        <% include partials/header %>
+        <% include partials/nav %>
+        <main class="main-content">
+            <h1><%= message %></h1>
+            <h2><%= error.status %></h2>
+            <pre><%= error.stack %></pre>
+        </main>
+        <% include partials/footer %>
+        <% include partials/scripts %>
+    </body>
+</html>
