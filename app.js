@@ -50,6 +50,10 @@ app.use(stylus.middleware(path.join(__dirname, 'public')));
 // route setup
 app.use(routes);
 
+// server setup
+var port = process.env.PORT || 3000;
+app.listen(port);
+
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
