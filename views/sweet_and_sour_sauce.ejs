@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <% include partials/head %>
+    <body>
+        <% include partials/header %>
+        <% include partials/nav %>
+        <main class='main-content'>
+            <div class='recipe_ingredients'>
+                <h1>Sweet & Sour Sauce</h1>
+                <img src='/images/sweet_and_sour_sauce.jpg'/>
+                <p>Serves: <input type='number' id='quantity' value='1' min='1' max='10'/></p>
+                <h3>Ingredients:</h3>
+                <div id='sweet_and_sour_sauce'>
+                    <ul>
+                        <li>0.25 cup ketchup</li>
+                        <li>0.5 tsp soy sauce</li>
+                        <li>0.25 cup white vinegar</li>
+                        <li>0.25 cup brown sugar</li>
+                        <li>0.5 cup cold water</li>
+                        <li>1.5 tbs corn starch</li>
+                    </ul>
+                </div>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>In a small saucepan, combine the first 5 ingredients.</li>
+                    <li>In a cup or bowl whisk the cold water with cornstarch until smooth and combined, then whisk in ketchup mixture.</li>
+                    <li>bring to a boil stirring or whisking constantly over medium-high heat until bubbly and thickened (the sauce will continue to thicken more while simmering).</li>
+                    <li>Cool slightly and use immediately or refrigerate.</li>
+                </ol>
+            </div>
+        </main>
+        <% include partials/footer %>
+        <% include partials/scripts %>
+    </body>
+</html>

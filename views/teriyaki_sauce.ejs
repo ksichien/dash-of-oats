@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <% include partials/head %>
+    <body>
+        <% include partials/header %>
+        <% include partials/nav %>
+        <main class='main-content'>
+            <div class='recipe_ingredients'>
+                <h1>Teriyaki Sauce</h1>
+                <img src='/images/teriyaki_sauce.jpg'/>
+                <p>Serves: <input type='number' id='quantity' value='1' min='1' max='10'/></p>
+                <h3>Ingredients:</h3>
+                <div id='teriyaki_sauce'>
+                    <ul>
+                        <li>0.5 cup soy sauce</li>
+                        <li>0.25 cup mirin</li>
+                        <li>0.25 cup sake</li>
+                        <li>2 tbs sugar</li>
+                    </ul>
+                </div>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>In a small saucepan, combine soy sauce, mirin, sake and sugar.</li>
+                    <li>Heat over a medium-high flame while stirring the mixture well.</li>
+                    <li>Lower the heat to medium and bring the sauce to a boil, then turn down the heat to low. Simmer the sauce for a few minutes until the sauce reduces slightly.</li>
+                    <li>Remove the pan from the heat and allow the teriyaki sauce to cool.</li>
+                </ol>
+            </div>
+        </main>
+        <% include partials/footer %>
+        <% include partials/scripts %>
+    </body>
+</html>

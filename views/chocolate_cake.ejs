@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <% include partials/head %>
+    <body>
+        <% include partials/header %>
+        <% include partials/nav %>
+        <main class='main-content'>
+            <div class='recipe_ingredients'>
+                <h1>Chocolate Cake</h1>
+                <img src='/images/chocolate_cake.jpg'/>
+                <p>Serves: <input type='number' id='quantity' value='1' min='1' max='10'/></p>
+                <h3>Ingredients:</h3>
+                <div id='chocolate_cake'>
+                    <ul>
+                        <li>3/2 cups all-purpose flour</li>
+                        <li>3 tbs cocoa powder</li>
+                        <li>1 cup sugar</li>
+                        <li>1 tsp baking soda</li>
+                        <li>1/2 tsp salt</li>
+                        <li>1 tsp white vinegar</li>
+                        <li>1 tsp vanilla extract</li>
+                        <li>5 tbs vegetable oil</li>
+                        <li>1 cup water</li>
+                    </ul>
+                </div>
+                <h3>Instructions:</h3>
+                <ol>
+                    <li>Preheat the oven to 175 degrees Celsius. Grease an 8-inch square or 9-inch round cake pan.</li>
+                    <li>Add all the dry ingredients directly to the pan and mix.</li>
+                    <li>Make 3 depressions – 2 small and 1 large – in the mixed dry ingredients. Pour the vinegar in one of the small depressions, the vanilla in the other small depression, and the vegetable oil in the large depression. Pour water over all, and mix with a fork until smooth.</li>
+                    <li>Bake on the middle rack of the oven for 35 minutes, until an inserted toothpick comes out clean.</li>
+                    <li>Allow to cool. Top with your favorite frosting and enjoy!</li>
+                </ol>
+            </div>
+        </main>
+        <% include partials/footer %>
+        <% include partials/scripts %>
+    </body>
+</html>
