@@ -3,5 +3,8 @@
         "browser": true,
         "jquery": true
     },
-    "extends": "standard"
+    "extends": "standard",
+    "globals": {
+        "recipes": true
+    }
 }
