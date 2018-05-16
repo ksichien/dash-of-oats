@@ -1,4 +1,4 @@
-$('input').change(function () {
+$('input').change(() => {
   for (let i in recipes) {
     if (document.getElementById(recipes[i].name)) {
       const div = `#${recipes[i].name}`
